@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+            rel="stylesheet"
+        />
+        <title>Document</title>
+    </head>
+    <body>
+        <div class="container">
+            <img
+                height="250px"
+                width="500px"
+                src="https://www.advancedsciencenews.com/wp-content/uploads/2021/08/lisa-keffer-i0kB5B9J8Ds-unsplash.jpg"
+                alt=""
+            />
+            <p class="g-name">Ping Pong Score Keeper</p>
+            <div class="content">
+                <span id="player1">0</span><span> to </span>
+                <span id="player2"> 0</span>
+                <p>Use the buttons below to keep the score</p>
+                <label for="threshold">Playing to</label>
+                <select id="threshold">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5" selected>5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                </select>
+            </div>
+            <div class="buttons">
+                <button type="submit" id="player1btn">+1 Player One</button>
+                <button id="player2btn">+1 Player Two</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
