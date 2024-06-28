@@ -24,6 +24,18 @@ function CheckGameOver() {
         endGame();
     }
 }
+function reset() {
+    player1.textContent = 0;
+    player2.textContent = 0;
+    player1Score = 0;
+    player2Score = 0;
+    player1Btn.disabled = false;
+    player2Btn.disabled = false;
+    player2.style.color = "black";
+    player1.style.color = "black";
+    player1Btn.style.backgroundColor = "#0ebc9f";
+    player2Btn.style.backgroundColor = "#2a8dd7";
+}
 player1Btn.addEventListener("click", () => {
     player1Score++;
     player1.textContent = player1Score;
@@ -36,26 +48,8 @@ player2Btn.addEventListener("click", () => {
 });
 
 resetBtn.addEventListener("click", () => {
-    player1.textContent = 0;
-    player2.textContent = 0;
-    player1Score = 0;
-    player2Score = 0;
-    player1Btn.disabled = false;
-    player2Btn.disabled = false;
-    player2.style.color = "black";
-    player1.style.color = "black";
-    player1Btn.style.backgroundColor = "#0ebc9f";
-    player2Btn.style.backgroundColor = "#2a8dd7";
+    reset();
 });
 thresholdInput.addEventListener("change", function (e) {
-    player1.textContent = 0;
-    player2.textContent = 0;
-    player1Score = 0;
-    player2Score = 0;
-    player2.style.color = "black";
-    player1.style.color = "black";
-    player1Btn.disabled = false;
-    player2Btn.disabled = false;
-    player1Btn.style.backgroundColor = "#0ebc9f";
-    player2Btn.style.backgroundColor = "#2a8dd7";
+    reset();
 });
