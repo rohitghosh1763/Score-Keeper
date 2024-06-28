@@ -1,6 +1,6 @@
-# Score-Keeping Game
+# Score-Keeper
 
-This is a simple score-keeping game implemented using HTML, CSS, and JavaScript. It allows two players to increment their scores by clicking dedicated buttons until one of them reaches a specified winning threshold. Click [Score Keeper](https://rohitghosh1763.github.io/Score-Keeper/) to use the Progeram
+This is a simple score-keeping program implemented using HTML, CSS, and JavaScript. It allows two players to increment their scores by clicking dedicated buttons until one of them reaches a specified winning threshold. Click [Score Keeper](https://rohitghosh1763.github.io/Score-Keeper/) to use the Progeram
 
 ## Features
 
